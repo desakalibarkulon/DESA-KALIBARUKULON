@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Desa Kalibarukulon - Resmi</title>
+  <style>
+    :root{--accent:#166534;--muted:#6b7280;--bg:#f8fafc}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#111}
+    header{background:linear-gradient(90deg,#065f46,#10b981);color:#fff;padding:20px 16px}
+    .container{max-width:1000px;margin:0 auto;padding:18px}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand img{width:64px;height:64px;border-radius:8px;background:#fff;padding:4px}
+    .brand h1{margin:0;font-size:18px}
+    .nav-links a{color:#fff;text-decoration:none;margin-left:12px}
+    .hero{display:flex;gap:18px;align-items:center;margin-top:16px}
+    .card{background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(13,21,30,0.06)}
+    main{padding:18px} h2{margin-top:0}
+    .two-col{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    @media(max-width:900px){.two-col{grid-template-columns:1fr}.nav-links{display:none}}
+    .table{width:100%;border-collapse:collapse}
+    .table th,.table td{border-bottom:1px solid #eee;padding:8px;text-align:left}
+    .gallery{display:flex;flex-wrap:wrap;gap:8px}
+    .gallery img{width:calc(33.333% - 5px);border-radius:8px}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none}
+    footer{padding:16px;text-align:center;color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <img src="assets/logo.png" alt="Logo Desa">
+          <div>
+            <h1>Desa Kalibarukulon</h1>
+            <div class="small">Kecamatan Kalibaru - Kabupaten Banyuwangi</div>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a href="#profil">Profil Desa</a>
+          <a href="#pemerintahan">Pemerintahan</a>
+          <a href="#kegiatan">Kegiatan PKK</a>
+          <a href="#bumdes">BUMDes</a>
+          <a href="#lpmd-bpd">LPMD & BPD</a>
+          <a href="#galeri">Galeri</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div style="flex:1">
+          <div class="card">
+            <h2>Selamat datang di Website Resmi Desa Kalibarukulon</h2>
+            <p>Website ini dibuat untuk memudahkan warga mendapatkan informasi tentang desa, kegiatan, layanan publik, dan dokumentasi kegiatan.</p>
+            <p><a class="btn" href="#kontak">Ajukan Pengaduan / Saran</a></p>
+          </div>
+        </div>
+        <div style="width:300px">
+          <div class="card">
+            <strong>Kepala Desa</strong>
+            <div style="margin-top:8px;font-weight:700">Imam Syafi'i</div>
+            <div class="small" style="color:var(--muted)">Desa Kalibarukulon</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="profil" class="card">
+      <h2>Profil Desa</h2>
+      <div class="two-col">
+        <div>
+          <h3>Sambutan Kepala Desa</h3>
+          <p><em>Assalamu’alaikum Warahmatullahi Wabarakatuh.</em></p>
+          <p>Puji syukur kita panjatkan ke hadirat Allah SWT karena atas rahmat dan karunia-Nya, Website Resmi Desa Kalibarukulon, Kecamatan Kalibaru, Kabupaten Banyuwangi ini akhirnya dapat terselesaikan.</p>
+          <p>Saya, <strong>Imam Syafi’i</strong>, selaku Kepala Desa Kalibarukulon, mengucapkan terima kasih atas segala dukungan dan kerja sama semua pihak hingga website ini bisa terwujud, meskipun masih terdapat banyak kekurangan.</p>
+          <p>Semoga dengan adanya website ini, masyarakat dapat lebih mudah mendapatkan informasi dan mengenal lebih dekat tentang Desa Kalibarukulon. Mohon maaf apabila masih banyak kekurangan.</p>
+
+          <h3>Data Wilayah</h3>
+          <ul>
+            <li>Dusun Krajan — 5 RW, 20 RT</li>
+            <li>Dusun Margomakmur — 4 RW, 16 RT</li>
+            <li>Dusun Sumbermulyo — 4 RW, 15 RT</li>
+          </ul>
+        </div>
+        <aside class="card">
+          <h4>Data Singkat</h4>
+          <table class="table">
+            <tr><th>Nama Desa</th><td>Desa Kalibarukulon</td></tr>
+            <tr><th>Kecamatan</th><td>Kalibaru</td></tr>
+            <tr><th>Kabupaten</th><td>Banyuwangi</td></tr>
+            <tr><th>Kepala Desa</th><td>Imam Syafi'i</td></tr>
+          </table>
+        </aside>
+      </div>
+    </section>
+
+    <section id="pemerintahan" class="card" style="margin-top:18px">
+      <h2>Pemerintahan</h2>
+      <p>Daftar perangkat desa dan lembaga.</p>
+      <table class="table">
+        <thead><tr><th>Jabatan</th><th>Nama</th></tr></thead>
+        <tbody>
+          <tr><td>Kepala Desa</td><td>Imam Syafi'i</td></tr>
+          <tr><td>Sekretaris Desa</td><td>-</td></tr>
+          <tr><td>Kasi Pemerintahan</td><td>-</td></tr>
+          <tr><td>Kasi Kesejahteraan</td><td>-</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="kegiatan" class="card" style="margin-top:18px">
+      <h2>Kegiatan PKK</h2>
+      <p>Informasi kegiatan PKK dan pemberdayaan masyarakat.</p>
+      <ul>
+        <li>Pelatihan kader PKK</li>
+        <li>Posyandu dan kegiatan kesehatan ibu & anak</li>
+        <li>Pengajian dan kegiatan sosial keagamaan</li>
+      </ul>
+    </section>
+
+    <section id="bumdes" class="card" style="margin-top:18px">
+      <h2>BUMDes</h2>
+      <p>Informasi singkat mengenai BUMDes dan program pemberdayaan ekonomi lokal.</p>
+      <ul>
+        <li>Usaha tani bersama</li>
+        <li>Pengelolaan pasar desa</li>
+      </ul>
+    </section>
+
+    <section id="lpmd-bpd" class="card" style="margin-top:18px">
+      <h2>LPMD & BPD</h2>
+      <p>Peran LPMD dan BPD dalam pengawasan dan perencanaan pembangunan desa.</p>
+    </section>
+
+    <section id="galeri" class="card" style="margin-top:18px">
+      <h2>Galeri</h2>
+      <div class="gallery">
+        <img src="assets/logo.png" alt="foto 1">
+        <img src="assets/logo.png" alt="foto 2">
+        <img src="assets/logo.png" alt="foto 3">
+      </div>
+    </section>
+
+    <section id="kontak" class="card" style="margin-top:18px">
+      <h2>Kontak</h2>
+      <p>Alamat: Balai Desa Kalibarukulon, Kecamatan Kalibaru, Kabupaten Banyuwangi</p>
+      <p>Telepon/WA: +62 (isi nomor)</p>
+      <h4>Form Pengaduan</h4>
+      <form onsubmit="event.preventDefault();alert('Terima kasih. Pengaduan terkirim.');this.reset();">
+        <div style="margin-bottom:8px"><input required placeholder="Nama" style="width:100%;padding:8px;border:1px solid #eee;border-radius:8px"></div>
+        <div style="margin-bottom:8px"><input required placeholder="No. HP / WA" style="width:100%;padding:8px;border:1px solid #eee;border-radius:8px"></div>
+        <div style="margin-bottom:8px"><textarea required placeholder="Isi pengaduan / saran" style="width:100%;padding:8px;border:1px solid #eee;border-radius:8px"></textarea></div>
+        <div><button class="btn" type="submit">Kirim</button></div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      &copy; 2025 Desa Kalibarukulon — Dikelola oleh Pemerintah Desa. Dibuat dengan bantuan Panjul (asisten).
+    </div>
+  </footer>
+</body>
+</html>
