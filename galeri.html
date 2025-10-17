@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Kegiatan Desa Kalibarukulon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f6f7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007f5f;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container img {
+      width: 250px;
+      height: 180px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    .container img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Galeri Kegiatan Desa Kalibarukulon</h2>
+  </header>
+  <div class="container">
+    <!-- Ganti nama file sesuai foto yang Bapak upload -->
+    <img src="gambar/foto1.jpg" alt="Kegiatan 1">
+    <img src="gambar/foto2.jpg" alt="Kegiatan 2">
+    <img src="gambar/foto3.jpg" alt="Kegiatan 3">
+  </div>
+</body>
+</html>
